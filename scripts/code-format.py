@@ -2,6 +2,8 @@
 
 import os
 
+print("RCE!")
+
 print("Formatting src")
 os.system('astyle --options=code-format.cfg --recursive "../src/*.c,*.h"')
 
